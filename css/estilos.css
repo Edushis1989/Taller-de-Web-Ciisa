@@ -1,0 +1,47 @@
+li {
+    color: red
+}
+
+h1 {
+    color: blue;
+    font-family: cursive;
+}
+
+.pepito {
+    color: white;
+    margin-right: 28px
+}
+
+.container {
+    position: relative;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: flex
+}
+
+.fila {
+    display: flex;
+}
+#foto-principal{
+    height: 200px;
+    width: 200px;
+}
+.foto-galeria{
+    height: 150px;
+    width: 150px;
+}
+
+<style>
+body {
+margin: 0;
+background-image: url("imagenes/FONDO\ DE\ PAGINA\ WEB.jpg");
+background-repeat: repeat;
+min-height: 100vh;
+}
+</style>
